@@ -1,6 +1,32 @@
-body{
+body { 
+    font-family: Arial; 
+    background: #8b8b8b; 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-image: url(img/pexels-tima-miroshnichenko-6694535.jpg);
+    background-size: cover;
     margin: 0;
+}
+.calculadora { 
+    background: white; 
+    padding: 30px; 
+    border-radius: 20px; 
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    background-color: rgba(5, 5, 5, 0.753); 
+}
+#display { 
+    width: 100%; 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    padding: 5px; 
+}
+.botoes button {
+     width: 70px; 
+     height: 70px; 
+     font-size: 20px; 
+     margin: 5px; 
+     background-color: #ffffffd0;
 }
